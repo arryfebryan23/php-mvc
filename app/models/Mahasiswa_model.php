@@ -45,7 +45,6 @@ class Mahasiswa_model{
 		$this->stmt = $this->dbh->prepare('SELECT * FROM mahasiswa');
 		$this->stmt->execute();
 		return $this->stmt->fetchAll(PDO::FETCH_ASSOC);
-
 	}
 }
 
