@@ -1,6 +1,6 @@
 <?php 
 
-Class About extends Controller{
+class About extends Controller{
 
 	public function index($nama = "Arry", $pekerjaan = "Mahasiswa")
 	{
